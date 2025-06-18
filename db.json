@@ -1,0 +1,151 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Finish reportx",
+      "description": "Complete the sales report",
+      "status": "Todo",
+      "dueDate": "2025-06-20"
+    },
+    {
+      "id": "3",
+      "title": "Client follow-up",
+      "description": "Email follow-up to client regarding feedback",
+      "status": "Done",
+      "dueDate": "2025-06-17"
+    },
+    {
+      "id": "4",
+      "title": "Update website",
+      "description": "Add new features to the homepage",
+      "status": "Todo",
+      "dueDate": "2025-06-25"
+    },
+    {
+      "id": "5",
+      "title": "Fix login bug",
+      "description": "Resolve issue in login component",
+      "status": "In Progress",
+      "dueDate": "2025-06-18"
+    },
+    {
+      "id": "6",
+      "title": "Prepare presentation",
+      "description": "Slides for quarterly meeting",
+      "status": "Todo",
+      "dueDate": "2025-06-22"
+    },
+    {
+      "id": "7",
+      "title": "Code review",
+      "description": "Review pull requests from frontend team",
+      "status": "Done",
+      "dueDate": "2025-06-16"
+    },
+    {
+      "id": "8",
+      "title": "Test new feature",
+      "description": "QA testing for the new dashboard feature",
+      "status": "In Progress",
+      "dueDate": "2025-06-21"
+    },
+    {
+      "id": "9",
+      "title": "Organize files",
+      "description": "Clean up and organize project folder",
+      "status": "Todo",
+      "dueDate": "2025-06-23"
+    },
+    {
+      "id": "10",
+      "title": "Write documentation",
+      "description": "Document API endpoints",
+      "status": "Done",
+      "dueDate": "2025-06-15"
+    },
+    {
+      "id": "11",
+      "title": "Update README",
+      "description": "Improve project documentation and examples",
+      "status": "Todo",
+      "dueDate": "2025-06-26"
+    },
+    {
+      "id": "12",
+      "title": "Optimize images",
+      "description": "Compress images for faster loading",
+      "status": "In Progress",
+      "dueDate": "2025-06-20"
+    },
+    {
+      "id": "13",
+      "title": "Deploy to staging",
+      "description": "Push current build to staging server",
+      "status": "Todo",
+      "dueDate": "2025-06-24"
+    },
+    {
+      "id": "14",
+      "title": "Check analytics",
+      "description": "Review user traffic and behavior trends",
+      "status": "Done",
+      "dueDate": "2025-06-13"
+    },
+    {
+      "id": "15",
+      "title": "Backup database",
+      "description": "Create and verify database backups",
+      "status": "Todo",
+      "dueDate": "2025-06-28"
+    },
+    {
+      "id": "16",
+      "title": "Fix typo in footer",
+      "description": "Correct spelling error on homepage footer",
+      "status": "Done",
+      "dueDate": "2025-06-14"
+    },
+    {
+      "id": "17",
+      "title": "Update dependencies",
+      "description": "Upgrade project dependencies to latest versions",
+      "status": "In Progress",
+      "dueDate": "2025-06-19"
+    },
+    {
+      "id": "18",
+      "title": "User feedback survey",
+      "description": "Create survey form for user feedback",
+      "status": "Todo",
+      "dueDate": "2025-06-27"
+    },
+    {
+      "id": "19",
+      "title": "Design new icon",
+      "description": "Design and export a new app icon",
+      "status": "In Progress",
+      "dueDate": "2025-06-29"
+    },
+    {
+      "id": "20",
+      "title": "Write blog post",
+      "description": "Draft blog post for upcoming release",
+      "status": "Todo",
+      "dueDate": "2025-06-30"
+    },
+    {
+      "id": "07f5",
+      "title": "Tissd",
+      "description": "Complete the sales report",
+      "status": "In Progress",
+      "dueDate": "2025-06-12"
+    },
+    {
+      "id": "2639",
+      "title": "fg",
+      "description": "fgd",
+      "status": "Todo",
+      "dueDate": "2025-06-20"
+    }
+  ]
+}

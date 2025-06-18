@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Basic  */
+:root{
+    /* scroll-behavior: smooth; */
+    --primary :#4154f1;
+    --second : #717ff5;
+    --bgColor : #f0f1f1;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--bgColor) !important;
+    /* background: var(--bgColor); */
+}
+
+a{
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--second);
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-content {
+  margin-left: 300px; /* same as sidebar width */
+  padding: 0px;
+  transition: margin-left 0.3s ease;
+  position: absolute;
+  top: 70px;
+  /* width: 100%; */
+}
+
+/* If sidebar is collapsed */
+body.toggle-sidebar .main-content {
+  margin-left: 0;
+}
+
+/* On mobile, sidebar hidden anyway */
+@media (max-width: 1199px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
