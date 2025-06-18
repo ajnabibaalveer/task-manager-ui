@@ -1,18 +1,18 @@
-# 📝 Task Management App
+# 📝 Task Management App [React + Vite]
 
-A full-featured React-based Task Management application with login/signup functionality, task CRUD operations, filtering, sorting, pagination, and Bootstrap UI. Deployed on [Netlify / Vercel / Render].
+A full-featured React-based Task Management application with login/signup functionality, task CRUD operations, filtering, sorting and Bootstrap UI. Deployed on Vercel.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 [Live App URL](https://your-app-url.netlify.app)
+🔗 [Live App URL]([https://your-app-url.netlify.app](https://task-manager-ui-cprq.vercel.app/))
 
 ---
 
 ## 📁 GitHub Repository
 
-🔗 [GitHub Repo](https://github.com/your-username/task-management-app)
+🔗 [GitHub Repo](https://github.com/ajnabibaalveer/task-manager-ui)
 
 ---
 
@@ -22,7 +22,6 @@ A full-featured React-based Task Management application with login/signup functi
 - 📝 **Create, Read, Update, Delete Tasks**
 - 📅 **Sort by Due Date or Title**
 - ✅ **Filter by Task Status (Todo, In Progress, Done)**
-- 📄 **Pagination for large task lists**
 - 🧠 **Bootstrap 5 UI with Responsive Layout**
 - 📦 Local token storage (`localStorage`) for mock login session
 
@@ -107,5 +106,5 @@ This project is licensed under the MIT License.
 
 ## 🙋‍♂️ Author
 
-**Your Name**  
+**Shivanand Prajapati**  
 [Portfolio/LinkedIn/GitHub]# task-manager-ui
