@@ -1,5 +1,5 @@
 import React from 'react'
-import "./nav.css";
+// import "./nav.css";
 import NavAvtar from './NavAvtar';
 import NavLogOut from './NavLogOut';
 const Nav = () => {
