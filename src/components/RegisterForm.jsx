@@ -6,8 +6,7 @@ import NavAvtar from './NavAvtar';
 const RegisterForm = () => {
   const navigate = useNavigate();
    const handlenogIN = () => {
-    // Optional: clear auth token or session here
-    navigate('/Login'); // Change path to your Register route
+    navigate('/Login');
   };
   const [form, setForm] = useState({
     name: '',
@@ -29,7 +28,6 @@ const RegisterForm = () => {
     }
 
     console.log('Register form submitted:', form);
-    // Replace this with actual registration logic or API call
     navigate('/login');
   };
 

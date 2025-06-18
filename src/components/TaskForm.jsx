@@ -46,7 +46,7 @@ export default function TaskForm({ onSubmit, editingTask, setEditingTask }) {
     return (
         <>
             <div className="text-end">
-                <Button onClick={handleShow}><i class="bi bi-plus-circle"></i> Add Task</Button>
+                <Button onClick={handleShow} className='btn btn-sm p-2'><i class="bi bi-plus-circle"></i> Add Task</Button>
             </div>
 
             <Modal show={show} onHide={handleClose}>

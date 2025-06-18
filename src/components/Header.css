@@ -9,11 +9,9 @@
 
 }
 
-/* Search Bar */
 /* Toggle Sidebar Button */
 .header .toggle-sidebar-btn {
     font-size: 32px;
-    /* padding-left: 10px; */
     cursor: pointer;
     color: #012970;
 }

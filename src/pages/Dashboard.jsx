@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import TaskForm from '.././components/TaskForm';
 import TaskList from '.././components/TaskList';
 import FilterSort from '.././components/FilterSort';
+import tasksBackup from '../../db.json';
 
 export default function Dashboard() {
     const [tasks, setTasks] = useState([]);
@@ -17,7 +18,11 @@ export default function Dashboard() {
             const res = await axios.get('http://localhost:3001/tasks');
             setTasks(res.data);
         } catch (err) {
-            toast.error('Failed to fetch tasks');
+            console.error('Error fetching tasks from API:', err.message);
+            toast.warning('API failed, loading fallback tasks from file');
+
+            // Fallback to local data
+            setTasks(tasksBackup.tasks || []);
         }
     };
 
@@ -34,17 +39,6 @@ export default function Dashboard() {
             toast.error('Failed to add task');
         }
     };
-
-    //   const updateTask = async (task) => {
-    //     try {
-    //       await axios.put(`http://localhost:3001/tasks/${task.id}`, task);
-    //       toast.success('Task updated');
-    //       setEditingTask(null);
-    //       fetchTasks();
-    //     } catch {
-    //       toast.error('Failed to update task');
-    //     }
-    //   };
 
     const updateTask = async (task) => {
         console.log(task)

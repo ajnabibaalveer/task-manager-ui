@@ -25,7 +25,7 @@ const LoginForm = () => {
         },
         {
           headers: {
-            'x-api-key': 'reqres-free-v1' // ✅ Required now
+            'x-api-key': 'reqres-free-v1'
           }
         }
       );

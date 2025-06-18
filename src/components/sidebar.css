@@ -39,17 +39,6 @@
   border-radius: 4px;
  background: #f6f9ff;
 }
- /* .sidebar-nav .nav-link{
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: #6e718c;
-    transition: 0.3;
-    background: #f6f9ff;
-    padding: 10px 15px;
-    border-radius: 4px;
-} */
 
 .sidebar-nav .nav-link i{
     font-size: 16px;
@@ -64,7 +53,6 @@
 }
 .nav-link.active i  {
   color: #012970 !important;
-  /* background-color: #d2d9e4; */
 }
 
 
