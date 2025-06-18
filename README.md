@@ -6,7 +6,7 @@ A full-featured React-based Task Management application with login/signup functi
 
 ## 🚀 Live Demo
 
-🔗 [Live App URL]([https://your-app-url.netlify.app](https://task-manager-ui-cprq.vercel.app/))
+🔗 [Live App URL](https://task-manager-ui-cprq.vercel.app/)
 
 ---
 
@@ -42,19 +42,19 @@ A full-featured React-based Task Management application with login/signup functi
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/task-management-app.git
+git clone https://github.com/ajnabibaalveer/task-management-app.git
 
 # Navigate to the project folder
-cd task-management-app
+cd mini-task-dashboard
 
 # Install dependencies
 npm install
 
-# Start the JSON server (if using json-server)
+# Start the JSON server (I am using using json-server)
 npx json-server --watch db.json --port 3001
 
-# Start the React app
-npm start
+# Start the React app + vite
+npm run dev
 ```
 
 ---
@@ -76,25 +76,15 @@ These credentials will return a dummy token to simulate login.
 
 ```
 src/
-├── components/
-│   ├── TaskForm.jsx
-│   ├── TaskList.jsx
-│   ├── FilterSort.jsx
-├── pages/
-│   ├── Dashboard.jsx
-│   ├── LoginForm.jsx
-│   ├── RegisterForm.jsx
+├── components/ # Reusable UI components (TaskList, Nav, Sidebar, etc.)
+├── pages/ # Route components (Dashboard, Login, Register, etc.)
+├── services/ # Axios services (taskService.js)
+├── data/ # Optional mock data or JSON
+├── assets/ # Logo or media
 ├── App.jsx
-├── index.js
+└── index.js
 ```
 
----
-
-## 📸 Screenshots
-
-| Login Page | Dashboard | Task Modal |
-|------------|-----------|------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Modal](screenshots/modal.png) |
 
 ---
 
@@ -107,4 +97,3 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Author
 
 **Shivanand Prajapati**  
-[Portfolio/LinkedIn/GitHub]# task-manager-ui
